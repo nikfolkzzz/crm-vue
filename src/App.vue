@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <button class="btn">test</button>
     <component :is="layout">
       <router-view />
     </component>
